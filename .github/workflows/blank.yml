@@ -1,4 +1,4 @@
-name: Greeting from Mona
+name: Greeting from CHAN King Yu
 on: push
 
 jobs:
@@ -9,8 +9,8 @@ jobs:
     - name: Print a greeting
       env:
         MY_VAR: Hi there! My name is
-        FIRST_NAME: Mona
-        MIDDLE_NAME: The
-        LAST_NAME: Octocat
+        FIRST_NAME: King
+        MIDDLE_NAME: Yu
+        LAST_NAME: CHAN
       run: |
         echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
